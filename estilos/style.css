@@ -5,9 +5,24 @@ body {
     background-color: beige;
 }
 main {
-    background-color: white;
+    background-color: rgb(206, 200, 200);
     width: 500px;
     margin: auto;
     padding: 10px;
-    box-shadow: 3px 3px 5px rgb(0, 0, 0.473);
+    box-shadow:rgb(0, 0, 0.473);
+    outline: none;
+    border: 1px solid rgb(165, 144, 144);
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+article, h1{
+    text-align: center;
+}
+h2 {
+    border: 1px solid;
+} 
+
+
